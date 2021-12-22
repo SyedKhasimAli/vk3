@@ -1,0 +1,151 @@
+body{
+    background-color:whitesmoke
+}
+.keyboard{
+    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width:90%;
+    height:auto;
+    padding: 15px;
+    font-size: 50px;
+    box-shadow: 20px 20px 18px rgb(3, 3, 3);
+    background-color: rgb(196, 169, 134);
+    border-radius: 10%;
+          
+}
+textarea{
+    display: flex;
+    margin:auto;
+    width:50%;
+    height:20%;
+    margin-top:2%;
+}
+textarea:focus-visible{
+    background-color: grey;
+}
+
+button{
+    font-size: 25px;
+    background-color: rgb(30, 18, 51);
+    color:white;
+    font-family:cursive;
+    /* border-radius: 30%; */
+    cursor: pointer;
+    margin:20px;    
+    
+}
+button:hover{
+    font-size:26px;
+    text-shadow: blue;
+    background-color: grey;
+    
+}
+#cap:active{
+    background-color: blue;
+}
+.but{
+   justify-content: center;
+   align-items: center;
+}
+.uppercase{
+    text-transform:lowercase;
+}
+.buton{
+    background-color: #92bccf;
+    width:auto;
+    padding:5%;
+    border-radius: 20%;
+
+    height:40vh;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow:10px 20px 30px black;
+    
+   
+   
+
+}
+p{
+    text-align: center;
+}
+@media  screen and (max-width: 1300px) {
+  
+.buton{
+    background-color: #048ccb;
+    width:90%;
+    height:auto;
+    border-radius: 0%;
+    margin-top:20%;
+    align-items: center;
+    justify-content: center;
+    box-shadow:10px 20px 30 black;
+    padding:2%;
+
+}
+button{
+    font-size: 15px;
+    background-color: black;
+    color:white;
+    font-family: cursive;
+    /* border-radius: 30%; */
+    cursor: pointer;
+    margin:1%; 
+    
+    
+     
+}
+button:hover{
+    font-size:19px;
+    text-shadow: blue;
+    background-color: tomato;
+    
+}
+.keyboard{
+    
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+    width:90%;
+    height:auto;
+    padding: 2px;
+    font-size:10px;
+    box-shadow: 20px 20px 18px white;
+    background-color: blanchedalmond;
+    border-radius: 0%;
+    
+      
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}
+textarea{
+    display: flex;
+    margin:auto;
+    width:90%;
+    height:20%;
+    margin-top:2%;
+   
+}
+body{
+    background-color:gray;
+}
+.butt{
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+}
+@media screen and (max-width: 500px){
+    .keyboard{
+        margin-top:20%;
+        background-color: navy;
+    }
+    .buton{
+        margin-bottom:2px;
+    }
+    
+}
